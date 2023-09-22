@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/border_line_sign"
+    android:elevation="2dp">
+        <ImageButton
+
+
+            android:id="@+id/back_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ion_chevron_back"
+            android:rotation="180"
+            android:layout_alignParentLeft="true"
+
+            style="?android:attr/borderlessButtonStyle"
+            /></LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
